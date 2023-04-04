@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Varela+Round&display=swap');
+
+
+* {
+    padding:0;
+    margin:0;
+}
+
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 94, 0, 0.839);
+}
+
+.negrito-titulo {
+    color:#cd2121c9;
+}
+.apresentacao {
+    margin: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    height: 485px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.paragrafo {
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px 0px;
+    
+}
+
+.redes_sociais{
+    color: rgb(255, 0, 0);
+    font-family: 'Varela Round', sans-serif;;
+    font-size: 25px ;
+}
+
+.apresentacao__links__link{
+    display: flex;
+    justify-content:center;
+    gap: 16px;
+    font-size: 20px;
+    color: red;
+    width: 300px;
+   border-radius: 9px;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    border: 2px solid salmon;
+    font-family: 'Varela Round', sans-serif;;
+
+}
+
+.apresentacao__links__link:hover {
+    background-color: rgb(103, 63, 63) ;
+
+}
+
+.bereal {
+    width: 40px;
+    align-items:center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+}
